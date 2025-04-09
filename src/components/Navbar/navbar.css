@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+.navbar {
+    min-height: 60px;
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+}
+
+.desktopMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.desktopMenuListItem {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    cursor: pointer;
+    font-family: "Lexend Deca", sans-serif;
+    /* Default style (if not active) */
+    color: white;
+}
+
+.desktopMenuListItem:hover {
+    color: rgb(179, 179, 179);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgb(179, 179, 179);
+}
+
+.icon {
+    margin-right: 0.2rem;
+}
+
+/* Active state for links */
+.desktopMenuListItem.active {
+    color: red;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 840px) {
+  .desktopMenu {
+    display: none;
+  }
+  
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    z-index: 4;
+  }
+  
+  .dropdownMenu {
+      display: none;
+      position: absolute;
+      top: 5rem;
+      right: 3rem;
+      background-color: rgb(0, 0, 0);
+      border: 1px solid #444;
+      border-radius: 5px;
+      flex-direction: column;
+      padding: 0.5rem 0;
+      z-index: 4;
+  }
+  
+  .dropdownMenu.open {
+      display: flex;
+  }
+  
+  .dropdownMenu li {
+      padding: 0.5rem 1rem;
+      list-style: none;
+      cursor: pointer;
+      font-family: "Lexend Deca", sans-serif;
+      color: white;
+  }
+  
+  .dropdownMenu li:hover {
+      color: rgb(179, 179, 179);
+      background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@media screen and (min-width: 841px) {
+  .hamburger,
+  .dropdownMenu {
+    display: none;
+  }
+}

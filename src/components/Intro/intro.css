@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.introContent {
+    flex: 1;
+    text-align: left;
+    font-family: "Lexend Deca", "sans-serif";
+    color: white;
+}
+
+.hello {
+    font-family: "Lexend Deca", "sans-serif";
+    font-size: 7vw;
+    color: white;
+}
+
+.introText {
+    color: white;
+}
+
+.photo {
+    object-fit: cover;
+    height: auto;
+    width: 30rem;
+    float: right;
+    border-radius: 10px;
+    margin-right: 5rem;
+}
+
+@media screen and (max-width: 840px) {
+    #intro {
+        flex-direction: column;  /* Stack items vertically */
+        text-align: center;        /* Center text in the container */
+    }
+  
+    .introContent {
+        text-align: center;        /* Center the text */
+        margin: 0 auto;
+        color: white;
+    }
+  
+    .photo {
+        float: none;              /* Remove float so it centers */
+        margin: 0 auto;           /* Center the image horizontally */
+        width: 80%;               /* Optional: adjust width for mobile */
+    }
+}

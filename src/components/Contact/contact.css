@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    color: pink;
+}
+
+.contactContent {
+    flex: 1;
+    text-align: left;
+    font-family: "Lexend Deca", "sans-serif";
+}
+
+.contactTitle {
+    font-family: "Lexend Deca", "sans-serif";
+    font-size: 7vw;
+}
