@@ -34,23 +34,27 @@
     margin: 1rem;
     cursor: pointer;
     font-family: "Lexend Deca", sans-serif;
-    /* Default style (if not active) */
     color: white;
+    transition: all 0.3s ease;
 }
 
+/* Hover effect */
 .desktopMenuListItem:hover {
     color: rgb(179, 179, 179);
     padding-bottom: 0.5rem;
     border-bottom: 2px solid rgb(179, 179, 179);
 }
 
-.icon {
-    margin-right: 0.2rem;
+/* Active state for links */
+.activeLink {
+    color: white; /* Change active link color to red or any color you want */
+    font-weight: bold;  /* Optional: Bold the active link */
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid white;  /* Optional: Underline the active link */
 }
 
-/* Active state for links */
-.desktopMenuListItem.active {
-    color: red;
+.icon {
+    margin-right: 0.2rem;
 }
 
 /* Mobile Styles */

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import logo from '../../assets/logo.png';
 
-import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
+import { NavLink } from 'react-router-dom'; // Import NavLink
 
 import { FaHome, FaBars } from "react-icons/fa";
 import { IoPersonCircleOutline } from "react-icons/io5";
@@ -23,21 +23,36 @@ const Navbar = () => {
             
             {/* Desktop Navigation */}
             <div className="desktopMenu">
-                <Link to="/" className="desktopMenuListItem">
+                <NavLink 
+                    to="/" 
+                    className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
+                >
                     <FaHome className="icon" /> Home
-                </Link>
-                <Link to="/about" className="desktopMenuListItem">
+                </NavLink>
+                <NavLink 
+                    to="/about" 
+                    className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
+                >
                     <IoPersonCircleOutline className="icon" /> About
-                </Link>
-                <Link to="/experience" className="desktopMenuListItem">
+                </NavLink>
+                <NavLink 
+                    to="/experience" 
+                    className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
+                >
                     <AiOutlineLaptop className="icon" /> Experience
-                </Link>
-                <Link to="/projects" className="desktopMenuListItem">
+                </NavLink>
+                <NavLink 
+                    to="/projects" 
+                    className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
+                >
                     <GoProjectSymlink className="icon" /> Projects
-                </Link>
-                <Link to="/contact" className="desktopMenuListItem">
+                </NavLink>
+                <NavLink 
+                    to="/contact" 
+                    className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
+                >
                     <MdOutlineEmail className="icon" /> Contact Information
-                </Link>
+                </NavLink>
             </div>
             
             {/* Hamburger Icon for Mobile */}
@@ -48,29 +63,44 @@ const Navbar = () => {
             {/* Mobile Dropdown Menu */}
             <ul className={`dropdownMenu ${menuOpen ? 'open' : ''}`}>
                 <li onClick={toggleMenu}>
-                    <Link to="/" className="desktopMenuListItem">
+                    <NavLink 
+                        to="/" 
+                        className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
+                    >
                         <FaHome className="icon" /> Home
-                    </Link>
+                    </NavLink>
                 </li>
                 <li onClick={toggleMenu}>
-                    <Link to="/about" className="desktopMenuListItem">
+                    <NavLink 
+                        to="/about" 
+                        className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
+                    >
                         <IoPersonCircleOutline className="icon" /> About
-                    </Link>
+                    </NavLink>
                 </li>
                 <li onClick={toggleMenu}>
-                    <Link to="/experience" className="desktopMenuListItem">
+                    <NavLink 
+                        to="/experience" 
+                        className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
+                    >
                         <AiOutlineLaptop className="icon" /> Experience
-                    </Link>
+                    </NavLink>
                 </li>
                 <li onClick={toggleMenu}>
-                    <Link to="/projects" className="desktopMenuListItem">
+                    <NavLink 
+                        to="/projects" 
+                        className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
+                    >
                         <GoProjectSymlink className="icon" /> Projects
-                    </Link>
+                    </NavLink>
                 </li>
                 <li onClick={toggleMenu}>
-                    <Link to="/contact" className="desktopMenuListItem">
+                    <NavLink 
+                        to="/contact" 
+                        className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
+                    >
                         <MdOutlineEmail className="icon" /> Contact Information
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
         </nav>
