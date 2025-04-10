@@ -15,6 +15,7 @@
     text-align: left;
     font-family: "Lexend Deca", "sans-serif";
     color: white;
+    align-items: center;
 }
 
 .hello {
@@ -37,20 +38,31 @@
 }
 
 @media screen and (max-width: 840px) {
-    #intro {
+    #home {
         flex-direction: column;  /* Stack items vertically */
-        text-align: center;        /* Center text in the container */
+        text-align: center;       /* Center text in the container */
+        align-items: center;
     }
   
     .introContent {
-        text-align: center;        /* Center the text */
+        text-align: center;       /* Center the text */
+        align-items: center;
+        justify-content: center;
         margin: 0 auto;
         color: white;
+        flex-direction: column;   /* Stack the content vertically */
     }
   
     .photo {
-        float: none;              /* Remove float so it centers */
-        margin: 0 auto;           /* Center the image horizontally */
-        width: 80%;               /* Optional: adjust width for mobile */
+        float: none;
+        display: block;
+        margin: 2rem auto 0 auto; /* top, left/right auto, bottom */
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0 !important; /* 🚨 override the base style */
+        margin-left: 0 !important;
     }
+    
 }
