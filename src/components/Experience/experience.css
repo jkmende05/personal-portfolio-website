@@ -7,16 +7,286 @@
     padding: 4rem;
     gap: 2rem;
     flex-wrap: wrap;
-    color: green;
+    color: white;
 }
 
 .experienceContent {
     flex: 1;
-    text-align: left;
     font-family: "Lexend Deca", "sans-serif";
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
 }
 
 .experienceTitle {
     font-family: "Lexend Deca", "sans-serif";
-    font-size: 7vw;
+    font-size: 3rem;
+    text-align: center; 
+}
+
+.work {
+    margin-top: 1rem;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.workTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.jobTitle {
+    margin-top: 1rem;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.listItem {
+    margin-top: 1rem;
+    font-size: 1rem;
+    list-style-type: disc; 
+}
+
+.jobDescription {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.wsp_logo{
+    height: auto;
+    width: 20rem;
+    border-radius: 10px;  
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+.oba_logo{
+    height: 10rem;
+    width: auto;
+    border-radius: 10px;  
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+
+.workContent{
+    display: flex;
+    flex-direction: row;  /* Align items horizontally */
+    align-items: center; 
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 1200px;  /* Limit the width to 1200px */
+    margin-left: auto;  /* Center horizontally */
+    margin-right: auto; 
+}
+
+.volunteerTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.volunteer {
+    margin-top: 1rem;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.volunteerDescription {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.volunteerContent{
+    display: flex;
+    flex-direction: row;  /* Align items horizontally */
+    align-items: center; 
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 1200px;  /* Limit the width to 1200px */
+    margin-left: auto;  /* Center horizontally */
+    margin-right: auto; 
+}
+
+.j_athletics_logo{
+    height: 10rem;
+    width: auto;
+    border-radius: 10px;  
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+.jays_logo{
+    height: 10rem;
+    width: auto;
+    border-radius: 10px;  
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+.vpci_logo{
+    height: 10rem;
+    width: auto;
+    border-radius: 10px;  
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+.tdsb_logo{
+    height: 10rem;
+    width: auto;
+    border-radius: 10px;  
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+.ootc_logo{
+    height: 10rem;
+    width: auto;
+    border-radius: 10px;  
+    object-fit: cover;
+    margin-left: 5rem;
+}
+
+@media screen and (max-width: 840px) {
+    .work {
+        flex-direction: column;  /* Stack items vertically */
+        text-align: center;       /* Center text in the container */
+        align-items: center;
+    }
+
+      
+    .workContent {
+        text-align: left;       /* Center the text */
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        color: white;
+        flex-direction: column;   /* Stack the content vertically */
+        margin-bottom: 3rem;
+    }
+
+    .wsp_logo {
+        float: none;
+        display: block;
+        margin: 2rem auto 0 auto; /* top, left/right auto, bottom */
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0 !important; 
+        margin-left: 0 !important;
+    }
+
+    .oba_logo {
+        float: none;
+        display: block;
+        margin: 2rem auto 0 auto; /* top, left/right auto, bottom */
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0 !important; 
+        margin-left: 0 !important;
+    }
+
+    .volunteer {
+        flex-direction: column;  /* Stack items vertically */
+        text-align: center;       /* Center text in the container */
+        align-items: center;
+    }
+
+      
+    .volunteerContent {
+        text-align: left;       /* Center the text */
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        color: white;
+        flex-direction: column;   /* Stack the content vertically */
+        margin-bottom: 3rem;
+    }
+    
+    .j_athletics_logo {
+        float: none;
+        display: block;
+        margin: 2rem auto 0 auto; /* top, left/right auto, bottom */
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0 !important; 
+        margin-left: 0 !important;
+    }
+
+    .jays_logo {
+        float: none;
+        display: block;
+        margin: 2rem auto 0 auto; /* top, left/right auto, bottom */
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0 !important; 
+        margin-left: 0 !important;
+    }
+
+    .vpci_logo {
+        float: none;
+        display: block;
+        margin: 2rem auto 0 auto; /* top, left/right auto, bottom */
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0 !important; 
+        margin-left: 0 !important;
+    }
+
+    .oba_logo {
+        float: none;
+        display: block;
+        margin: 2rem auto 0 auto; /* top, left/right auto, bottom */
+        width: 100%;
+        max-width: 10rem;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0 !important; 
+        margin-left: 0 !important;
+    }
+
+    .tdsb_logo {
+        float: none;
+        display: block;
+        margin: 2rem auto 0 auto; /* top, left/right auto, bottom */
+        width: 100%;
+        max-width: 10rem;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0 !important; 
+        margin-left: 0 !important;
+    }
+
+    .ootc_logo {
+        float: none;
+        display: block;
+        margin: 2rem auto 0 auto; /* top, left/right auto, bottom */
+        width: 100%;
+        max-width: 10rem;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0 !important; 
+        margin-left: 0 !important;
+    }
 }

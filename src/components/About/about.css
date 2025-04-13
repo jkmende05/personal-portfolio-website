@@ -145,6 +145,12 @@
     margin-right: 3rem;
 }
 
+.fa-brands {
+    margin-left: 0.2rem;
+    vertical-align: middle;
+    margin-right: 3rem;
+}
+
 @media screen and (max-width: 840px) {
     .education {
         flex-direction: column;  /* Stack items vertically */

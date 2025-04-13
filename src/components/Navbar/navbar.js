@@ -27,31 +27,31 @@ const Navbar = () => {
                     to="/" 
                     className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
                 >
-                    <FaHome className="icon" /> Home
+                    <FaHome className="navbarIcon" /> Home
                 </NavLink>
                 <NavLink 
                     to="/about" 
                     className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
                 >
-                    <IoPersonCircleOutline className="icon" /> About
+                    <IoPersonCircleOutline className="navbarIcon" /> About
                 </NavLink>
                 <NavLink 
                     to="/experience" 
                     className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
                 >
-                    <AiOutlineLaptop className="icon" /> Experience
+                    <AiOutlineLaptop className="navbarIcon" /> Experience
                 </NavLink>
                 <NavLink 
                     to="/projects" 
                     className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
                 >
-                    <GoProjectSymlink className="icon" /> Projects
+                    <GoProjectSymlink className="navbarIcon" /> Projects
                 </NavLink>
                 <NavLink 
                     to="/contact" 
                     className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
                 >
-                    <MdOutlineEmail className="icon" /> Contact Information
+                    <MdOutlineEmail className="navbarIcon" /> Contact Information
                 </NavLink>
             </div>
             
@@ -67,7 +67,7 @@ const Navbar = () => {
                         to="/" 
                         className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
                     >
-                        <FaHome className="icon" /> Home
+                        <FaHome className="navbarIcon" /> Home
                     </NavLink>
                 </li>
                 <li onClick={toggleMenu}>
@@ -75,7 +75,7 @@ const Navbar = () => {
                         to="/about" 
                         className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
                     >
-                        <IoPersonCircleOutline className="icon" /> About
+                        <IoPersonCircleOutline className="navbarIcon" /> About
                     </NavLink>
                 </li>
                 <li onClick={toggleMenu}>
@@ -83,7 +83,7 @@ const Navbar = () => {
                         to="/experience" 
                         className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
                     >
-                        <AiOutlineLaptop className="icon" /> Experience
+                        <AiOutlineLaptop className="navbarIcon" /> Experience
                     </NavLink>
                 </li>
                 <li onClick={toggleMenu}>
@@ -91,7 +91,7 @@ const Navbar = () => {
                         to="/projects" 
                         className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
                     >
-                        <GoProjectSymlink className="icon" /> Projects
+                        <GoProjectSymlink className="navbarIcon" /> Projects
                     </NavLink>
                 </li>
                 <li onClick={toggleMenu}>
@@ -99,7 +99,7 @@ const Navbar = () => {
                         to="/contact" 
                         className={({ isActive }) => `desktopMenuListItem ${isActive ? 'activeLink' : ''}`}
                     >
-                        <MdOutlineEmail className="icon" /> Contact Information
+                        <MdOutlineEmail className="navbarIcon" /> Contact Information
                     </NavLink>
                 </li>
             </ul>

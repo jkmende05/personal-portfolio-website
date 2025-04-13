@@ -34,7 +34,7 @@ const About = () => {
                     <span className="educationTitle">Education</span>
                     <div className="educationContent">
                         <div className="universityText">
-                            <p className="education">University of Waterloo (2023 - Present):</p>
+                            <p className="education">University of Waterloo (2023 - Present)</p>
                             <ul className="educationList">
                                 <li className="listItem">Student in the Biomedical Engineering Undergraduate Program, recently completed my 2A term</li>
                                 <li className="listItem">Working towards a Bachelor's of Applied Science, expected graduation in 2028</li>
@@ -47,7 +47,7 @@ const About = () => {
                     <div className="educationContent">
                         <img src={high_school_head_shot} alt="High School Graduation Head Shot" className="high_school_photo" />
                         <div className="highSchoolText">
-                            <p className="education">Victoria Park Collegiate Institute (2019 - 2023):</p>
+                            <p className="education">Victoria Park Collegiate Institute (2019 - 2023)</p>
                             <ul className="educationList">
                                 <li className="listItem">Recipient of Ontario Secondary School Diploma (OSSD), achieving an average of 98% in grade 12</li>
                                 <li className="listItem">Completed the pre-IB program</li>
