@@ -2,21 +2,189 @@
 
 #about {
     display: flex;
-    align-items: center;
+    align-items: flex-start;  /* Align items to the top */
     justify-content: center;
     padding: 4rem;
     gap: 2rem;
     flex-wrap: wrap;
-    color: blue;
+    color: white;
 }
 
 .aboutContent {
     flex: 1;
-    text-align: left;
     font-family: "Lexend Deca", "sans-serif";
+    display: flex;
+    flex-direction: column;  /* Allow content to stack vertically */
+    width: 100%;  /* Ensure it takes the full width */
 }
 
 .aboutTitle {
     font-family: "Lexend Deca", "sans-serif";
-    font-size: 7vw;
+    font-size: 3rem;
+    text-align: center; /* Ensure the title is centered */
+}
+
+.educationTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.education {
+    margin-top: 1rem;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.educationContent {
+    display: flex;
+    flex-direction: row;  /* Align items horizontally */
+    align-items: flex-start; 
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 1200px;  /* Limit the width to 1200px */
+    margin-left: auto;  /* Center horizontally */
+    margin-right: auto;  /* Center horizontally */
+}
+
+.educationList {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.listItem {
+    margin-top: 1rem;
+    font-size: 1rem;
+    list-style-type: disc; 
+}
+
+.baseball_photo {
+    height: auto;
+    width: 20rem;
+    border-radius: 10px;  
+    object-fit: cover;
+    margin-left: 5rem;  /* Moves photo 5rem from the center */
+}
+
+.high_school_photo {
+    height: auto;
+    width: 20rem;
+    border-radius: 10px;  
+    object-fit: cover;
+    margin-right: 5rem;  /* Moves photo 5rem from the center */
+}
+
+.summaryTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.summary {
+    margin-top: 1rem;
+    font-size: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.skillsTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.skills {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    align-items: center;
+}
+
+.skillsList {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+.awardsTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.awards {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.awardsList {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.icon {
+    margin-left: 0.2rem;
+    vertical-align: middle;
+    margin-right: 3rem;
+}
+
+@media screen and (max-width: 840px) {
+    .education {
+        flex-direction: column;  /* Stack items vertically */
+        text-align: center;       /* Center text in the container */
+        align-items: center;
+    }
+
+      
+    .educationContent {
+        text-align: left;       /* Center the text */
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        color: white;
+        flex-direction: column;   /* Stack the content vertically */
+        margin-bottom: 3rem;
+    }
+
+    .baseball_photo {
+        float: none;
+        display: block;
+        margin: 2rem auto 0 auto; /* top, left/right auto, bottom */
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0 !important; 
+        margin-left: 0 !important;
+    }
+
+    .high_school_photo {
+        float: none;
+        display: block;
+        margin-right: 0 !important; 
+        margin-left: 0 !important;
+        margin: 2rem auto 0 auto;
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        border-radius: 10px;
+    }
+    
 }
