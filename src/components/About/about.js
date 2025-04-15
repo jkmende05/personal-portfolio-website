@@ -109,33 +109,33 @@ const About = () => {
                 </div>
                 <div className="awards">
                     <span className="awardsTitle">Awards and Achievements</span>
-                    <p className="awards">Japanese Canadian Legacies Sports Fund:</p>
+                    <p className="awards">Japanese Canadian Legacies Sports Fund</p>
                     <ul className="awardsList">
                         <li>Issued by Japanese Canadian Legacies in February of 2024</li>
                         <li>Awarded to a high-performance athlete of Japanese Canaidan descent to support their development and pursuit of excellence within their sport</li>
                     </ul>
-                    <p className="awards">President's Scholarship of Distinction:</p>
+                    <p className="awards">President's Scholarship of Distinction</p>
                     <ul className="awardsList">
                         <li>Awarded by the University of Waterloo in September of 2023</li>
                         <li>Given to admitted students with an admission average of 95% or greater</li>
                     </ul>
-                    <p className="awards">MPP Award:</p>
+                    <p className="awards">MPP Award</p>
                     <ul className="awardsList">
                         <li>Issued by Victoria Park Collegiate Institute in June of 2023</li>
                         <li>Presented to a graduating student to recognize their exemplary academic performance, community service, and leadership within the school</li>
                     </ul>
-                    <p className="awards">Brian Maxwell Award and Scholarship:</p>
+                    <p className="awards">Brian Maxwell Award and Scholarship</p>
                     <ul className="awardsList">
                         <li>Recognized by the Brian Maxwell Memorial Fund and Victoria Park Collegiate Institute in June of 2023</li>
                         <li>Awarded to a graduating student at Victoria Park Collegiate Institute who demonstrates excellence in academics and athletics</li>
                         <li>Recognizes the discipline, work-ethic and commitment of the students and their contributions to the community</li>
                     </ul>
-                    <p className="awards">Computer Technology Award:</p>
+                    <p className="awards">Computer Technology Award</p>
                     <ul className="awardsList">
                         <li>Given by Victoria Park Collegiate Institute in June of 2023</li>
                         <li>Honors a graduating student at Victoria park CI for their achievements in computer engineering and computer science</li>
                     </ul>
-                    <p className="awards">Science Award:</p>
+                    <p className="awards">Science Award</p>
                     <ul className="awardsList">
                         <li>Awarded by Victoria Park Collegiate Institute in June of 2023</li>
                         <li>Acknowledges the achievements and contributions of a graduating student to the University Science Program</li>

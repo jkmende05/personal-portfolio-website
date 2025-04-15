@@ -7,16 +7,45 @@
     padding: 4rem;
     gap: 2rem;
     flex-wrap: wrap;
-    color: purple;
+    color: white;
 }
 
 .projectsContent {
     flex: 1;
-    text-align: left;
     font-family: "Lexend Deca", "sans-serif";
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin-bottom: 2rem;
 }
 
 .projectsTitle {
     font-family: "Lexend Deca", "sans-serif";
-    font-size: 7vw;
+    font-size: 3rem;
+    text-align: center; 
 }
+
+.projectsName {
+    display: flex;
+    align-items: center; 
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.projectDescription {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.githubIcon {
+    margin-left: 0.5rem;
+    height: 2rem;
+    color: white;
+}
+
+.githubIconLink {
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
