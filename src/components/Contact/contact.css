@@ -7,16 +7,50 @@
     padding: 4rem;
     gap: 2rem;
     flex-wrap: wrap;
-    color: pink;
+    color: white;
 }
 
 .contactContent {
     flex: 1;
-    text-align: left;
     font-family: "Lexend Deca", "sans-serif";
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin-bottom: 2rem;
 }
 
 .contactTitle {
     font-family: "Lexend Deca", "sans-serif";
-    font-size: 7vw;
+    font-size: 3rem;
+    text-align: center; 
+}
+
+.contactGithubIcon {
+    margin-left: 0.2rem;
+    font-size: 3rem;
+    vertical-align: middle;
+    margin-right: 3rem;
+    color: white;
+}
+
+.contactLinkedinIcon {
+    margin-right: 0.2rem;
+    font-size: 3rem;
+    vertical-align: middle;
+    margin-left: 3rem;
+    color: white;
+}
+
+.iconContent {
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-family: "Lexend Deca", "sans-serif";
+    display: flex;
+    flex-direction: row; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
