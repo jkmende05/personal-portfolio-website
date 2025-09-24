@@ -4,7 +4,7 @@ import './about.css';
 import baseball_head_shot from '../../assets/head_shot_year_two.jpg'
 import high_school_head_shot from '../../assets/high_school_head_shot.jpg'
 
-import { FaPython, FaJava, FaReact, FaGitSquare, FaChalkboardTeacher, FaTools, FaRegClock, FaRocket } from "react-icons/fa";
+import { FaPython, FaJava, FaReact, FaGitSquare, FaChalkboardTeacher, FaTools, FaRegClock, FaRocket, FaSuitcase, FaCalendarAlt } from "react-icons/fa";
 import { SiCplusplus, SiJupyter } from "react-icons/si";
 import { PiFileCSharpBold, PiFileSqlDuotone, PiMicrosoftExcelLogoBold, PiMathOperationsFill } from "react-icons/pi";
 import { DiHtml5 } from "react-icons/di";
@@ -12,8 +12,10 @@ import { FaCss3Alt, FaGithub, FaPeopleGroup, FaGears } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { MdDashboard } from "react-icons/md";
 import { VscVscode } from "react-icons/vsc";
-import { Gi3dStairs } from "react-icons/gi";
+import { Gi3dStairs, GiCarWheel } from "react-icons/gi";
+import { TbBlocks } from "react-icons/tb";
 import { BiConversation } from "react-icons/bi";
+import { AiFillCustomerService } from "react-icons/ai";
 
 const About = () => {
     return (
@@ -23,7 +25,7 @@ const About = () => {
                 <div className="summary">
                     <span className="summaryTitle">Summary</span>
                     <ul className="summaryList">
-                        <li className="listItem">Second-year Biomedical Engineering student-athlete</li>
+                        <li className="listItem">Third-year Biomedical Engineering student-athlete (Member of the Varsity Baseball Team)</li>
                         <li className="listItem">Strong technical proficiency in programming languages (Python, Java, C#, R) and analytical tools (Power BI, Excel) with hands-on experience in data analysis and visualization</li>
                         <li className="listItem">Demonstrated leadership and communication skills through coaching roles, volunteer programs, and collaborative projects with an emphasis on building strong relationships and delivering positive outcomes</li>
                         <li className="listItem">Proven ability to work effectively in multidisciplinary teams, contributing to real-world projects involving engineers, city planners, and data scientists</li>
@@ -36,10 +38,10 @@ const About = () => {
                         <div className="universityText">
                             <p className="education">University of Waterloo (2023 - Present)</p>
                             <ul className="educationList">
-                                <li className="listItem">Student in the Biomedical Engineering Undergraduate Program, recently completed my 2A term</li>
+                                <li className="listItem">Student in the Biomedical Engineering Undergraduate Program, recently completed my 2B term</li>
                                 <li className="listItem">Working towards a Bachelor's of Applied Science, expected graduation in 2028</li>
                                 <li className="listItem">Member of the Varsity Baseball Team</li>
-                                <li className="listItem">Obtained a culminative average of 86.94%, demonstrating a strong academic track record</li>
+                                <li className="listItem">Obtained a cumulative average of 87.83%, demonstrating a strong academic track record</li>
                             </ul>
                         </div>
                         <img src={baseball_head_shot} alt="University of Waterloo Baseball Head Shot" className="baseball_photo" />
@@ -94,6 +96,8 @@ const About = () => {
                     <p className="skills">Computer-Aided Design</p>
                     <ul className="skillsList">
                         <li className="listItem">SolidWorks <Gi3dStairs className="icon"/></li>
+                        <li className="listItem">Autodesk Fusion 360 <TbBlocks className="icon"/></li>
+                        <li className="listItem">AutoCAD <GiCarWheel className="icon"/></li>
                     </ul>
                     <p className="skills">Soft Skills</p>
                     <ul className="skillsList">
@@ -105,18 +109,26 @@ const About = () => {
                         <li className="listItem">Time Management <FaRegClock className="icon"/></li>
                         <li className="listItem">Problem Solving <PiMathOperationsFill className="icon"/></li>
                         <li className="listItem">Initiative <FaRocket className="icon"/></li>
+                        <li className="listItem">Professionalism <FaSuitcase className="icon"/></li>
+                        <li className="listItem">Organizational Skills <FaCalendarAlt className="icon"/></li>
+                        <li className="listItem">Customer Service / Stakeholder Engagement <AiFillCustomerService className="icon"/></li>
                     </ul>
                 </div>
                 <div className="awards">
                     <span className="awardsTitle">Awards and Achievements</span>
+                    <p className="awards">President's Academic Honour Roll</p>
+                    <ul className="awardsList">
+                        <li>Given by the University of Waterloo in October 2024</li>
+                        <li>Recognizes student-athletes with an average over 80% in the previous academic year</li>
+                    </ul>
                     <p className="awards">Japanese Canadian Legacies Sports Fund</p>
                     <ul className="awardsList">
                         <li>Issued by Japanese Canadian Legacies in February of 2024</li>
-                        <li>Awarded to a high-performance athlete of Japanese Canaidan descent to support their development and pursuit of excellence within their sport</li>
+                        <li>Awarded to a high-performance athlete of Japanese Canadian descent to support their development and pursuit of excellence within their sport</li>
                     </ul>
                     <p className="awards">President's Scholarship of Distinction</p>
                     <ul className="awardsList">
-                        <li>Awarded by the University of Waterloo in September of 2023</li>
+                        <li>Awarded by the University of Waterloo in September 2023</li>
                         <li>Given to admitted students with an admission average of 95% or greater</li>
                     </ul>
                     <p className="awards">MPP Award</p>
@@ -128,12 +140,12 @@ const About = () => {
                     <ul className="awardsList">
                         <li>Recognized by the Brian Maxwell Memorial Fund and Victoria Park Collegiate Institute in June of 2023</li>
                         <li>Awarded to a graduating student at Victoria Park Collegiate Institute who demonstrates excellence in academics and athletics</li>
-                        <li>Recognizes the discipline, work-ethic and commitment of the students and their contributions to the community</li>
+                        <li>Recognizes the discipline, work-ethic, and commitment of the students and their contributions to the community</li>
                     </ul>
                     <p className="awards">Computer Technology Award</p>
                     <ul className="awardsList">
                         <li>Given by Victoria Park Collegiate Institute in June of 2023</li>
-                        <li>Honors a graduating student at Victoria park CI for their achievements in computer engineering and computer science</li>
+                        <li>Honors a graduating student at Victoria Park CI for their achievements in computer engineering and computer science</li>
                     </ul>
                     <p className="awards">Science Award</p>
                     <ul className="awardsList">
