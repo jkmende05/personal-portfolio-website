@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/personal-portfolio-website/static/css/main.59fdf506.css",
-    "main.js": "/personal-portfolio-website/static/js/main.c57e9335.js",
+    "main.css": "/personal-portfolio-website/static/css/main.e31df732.css",
+    "main.js": "/personal-portfolio-website/static/js/main.ce175d55.js",
+    "static/media/Prosthetic_Arm_Project.mp4": "/personal-portfolio-website/static/media/Prosthetic_Arm_Project.ca319fe036d909638785.mp4",
     "static/media/head_shot.jpg": "/personal-portfolio-website/static/media/head_shot.c1f926b0e8edba961ac0.jpg",
     "static/media/high_school_head_shot.jpg": "/personal-portfolio-website/static/media/high_school_head_shot.c7ca4b4bdad4e467505d.jpg",
     "static/media/baseball_ontario_logo.png": "/personal-portfolio-website/static/media/baseball_ontario_logo.047793f1c721ebc1b0f5.png",
@@ -11,13 +12,14 @@
     "static/media/j_athletics_canada_logo.png": "/personal-portfolio-website/static/media/j_athletics_canada_logo.ce5bf36916d1238c629e.png",
     "static/media/wsp_logo.png": "/personal-portfolio-website/static/media/wsp_logo.9ef38e6f379f4358239f.png",
     "static/media/tdsb_logo.png": "/personal-portfolio-website/static/media/tdsb_logo.78ab95df64cdf09bf2bd.png",
+    "static/media/markham_logo.png": "/personal-portfolio-website/static/media/markham_logo.5181e1001c116f65c124.png",
     "static/media/head_shot_year_two.jpg": "/personal-portfolio-website/static/media/head_shot_year_two.417ff3ee81bac000bba8.jpg",
     "index.html": "/personal-portfolio-website/index.html",
-    "main.59fdf506.css.map": "/personal-portfolio-website/static/css/main.59fdf506.css.map",
-    "main.c57e9335.js.map": "/personal-portfolio-website/static/js/main.c57e9335.js.map"
+    "main.e31df732.css.map": "/personal-portfolio-website/static/css/main.e31df732.css.map",
+    "main.ce175d55.js.map": "/personal-portfolio-website/static/js/main.ce175d55.js.map"
   },
   "entrypoints": [
-    "static/css/main.59fdf506.css",
-    "static/js/main.c57e9335.js"
+    "static/css/main.e31df732.css",
+    "static/js/main.ce175d55.js"
   ]
 }
